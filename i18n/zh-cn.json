@@ -1,22 +1,42 @@
 {
-  "title": "函数式编程好",
-  "subtitle": "\u001b[23mSelect an exercise and hit \u001b[3mEnter\u001b[23m to begin",
+  "title": "FUNCTIONAL JAVASCRIPT IS GOOD",
+  "subtitle": "\u001b[23m请选择一个练习，按\u001b[3mEnter\u001b[23m 键开始",
   "common": {
     "exercise": {
       "fail": {
         "missing_deps": "You need to install all of the dependencies you are using in your solution (e.g. lodash)",
-        "module_not_found": "Could not find your file. Make sure the path is correct.",
-        "must_export_function": "You should always return a function using the module.exports object."
+        "module_not_found": "找不到文件，请确保提供的路径正确.",
+        "must_export_function": "你需要使用module.exports对象始终返回一个函数"
       },
       "input": "input:      %s",
       "submission": "submission: %s",
       "solution": "solution:   %s"
     }
   },
+  "exercise": {
+    "Hello World": "入门",
+    "Higher Order Functions": "高阶函数",
+    "Basic: Map": "基础 : Map",
+    "Basic: Filter": "基础 : Filter",
+    "Basic: Every Some": "基础 : Every, Some",
+    "Basic: Reduce": "基础 : Reduce",
+    "Basic: Recursion": "基础 : Recursion",
+    "Basic: Call": "基础 : Call",
+    "Partial Application without Bind": "Application Partielle sans Bind",
+    "Partial Application with Bind": "Application Partielle avec Bind",
+    "Implement Map with Reduce": "Implémenter Map à l’aide de Reduce",
+    "Function Spies": "Espions sur Fonctions",
+    "Blocking Event Loop": "Boucle d’Événements Bloquée",
+    "Trampoline": "Trampoline",
+    "Async Loops": "Boucles Asynchrones",
+    "Recursion": "Récursivité",
+    "Currying": "Currying",
+    "Function Call": "Appel de Fonction"
+  },
   "exercises": {
     "Basic: Map": {
-      "didnt_use_map": "You did not use Array#map",
-      "used_map": "Yay!  You used Array#map"
+      "didnt_use_map": "你没有使用 Array#map",
+      "used_map": "赞!  你用了 Array#map"
     },
     "Basic: Every Some": {
       "found_good_lists": "found %d good lists!"
